@@ -1,0 +1,4 @@
+{
+    "input_dir": "/path/to/your/kindle/html/notes",
+    "output_dir": "/path/to/save/markdown/files"
+}
