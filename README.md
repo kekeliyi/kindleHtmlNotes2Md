@@ -2,6 +2,14 @@
 
 This tool converts Kindle Notes exported as HTML files into clean, structured Markdown files suitable for Obsidian or other Markdown note-taking apps. It also extracts images (handwritten notes) from the HTML and saves them locally.
 
+## Why this tool?
+
+Existing solutions like Obsidian plugins or generic HTML converters didn't meet my specific needs, leading to the creation of this custom repository. The main motivations are:
+
+1.  **Support for Sideloaded Books**: many Obsidian plugins only fetch notes for books purchased directly from Amazon. This tool processes the HTML files exported directly from the Kindle app, working seamlessly for imported `.epub` or other sideloaded documents.
+2.  **Handwritten Note Support**: Standard converters often ignore the handwritten notes and sketches made on the Kindle Scribe. This tool extracts these images (base64 encoded in the HTML) and embeds them into the Markdown notes.
+3.  **Custom Aesthetics & Structure**: Generic converters often produce cluttered or unappealing output. This tool provides a highly structured, aesthetically pleasing Markdown format with clean headers and bullet points, exactly how I want them.
+
 ## Features
 
 - **Parses Kindle HTML Exports**: Reads standard Kindle HTML note exports.
